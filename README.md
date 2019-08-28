@@ -1,3 +1,3 @@
 # Creative-Coding-1
 
-Created Name
+Hello, I am Joel Thayer from Bozeman Montana
