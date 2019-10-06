@@ -4,6 +4,7 @@
 <p> I chose to add a picture I drew of Kobe Bryant after he won a NBA Championship. It is a illustration that I like a lot and am very proud of. </p>
 
 <img src="kobe.png">
-
+<a href="firstpage.html">Go to my first page</a>
+<a href="thirdpage.html">Go to my second page</a>
   </body>
 </html>

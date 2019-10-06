@@ -7,6 +7,8 @@
            Email: <input type="text" id="email"><br>
            <input type="checkbox" name="terms" value="I agree to the Terms and Conditions"> I agree to the Terms and Conditions<br>
            <button id="mySubmit" type="submit">Submit</button>
-
-
- </form>
+           <a href="firstpage.html">Go to my first page</a>
+           <a href="secondpage.html">Go to my second page</a>
+    </form>
+  </body>
+</html>

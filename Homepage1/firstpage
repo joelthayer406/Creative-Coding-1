@@ -1,0 +1,22 @@
+<html>
+  <body>
+    <h1>Homepage</h1>
+    <h2>My Favorite Hobbies<H2>
+    <p>
+    <ol>
+      <li>Golf</li>
+      <li>Drawing</li>
+      <li>Baseball</li>
+      <li>Playing with dogs</li>
+    </ol>
+    </p>
+    <h2>My Favorite Websites</h2>
+    <ol>
+      <li>https://twitter.com</li>
+      <li>https://www.nationalgeographic.com</li>
+      <li>https://www.baseball-reference.com</li>
+    </ol>
+  <a href="secondpage.html">Go to my second page</a>
+  <a href="thirdpage.html">Go to my thrid page</a>
+  </body>
+</html>
