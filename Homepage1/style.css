@@ -1,15 +1,15 @@
-<body {
+body {
   background-color: lightblue;
 }
-h1, span {
+h1 {
   margin: 0;
   font-family: 'Open Sans', sans-serif;
   color: darkblue;
   text-align: center;
-  font-size: 12px;
+  font-size: 24px;
 }
 
-h2, span {
+h2 {
   margin: 0;
   font-family: 'Open Sans', sans-serif;
   color: navy;
@@ -23,15 +23,19 @@ h2, span {
   margin: 4em auto;
   padding: 2em;
 }
-  main {
-    text-align: center;
-    margin: 2em;
-  }
+#main {
+  text-align: center;
+  margin: 2em;
+}
+#mySubmit {
+  text-align: right;
+  margin: 2em;
+  color: darkblue
+}
 
   footer {
     text-align: center;
-  }
-  * {
+
     box-sizing: border-box;
   }
 
@@ -56,28 +60,3 @@ h2, span {
   input[type=submit]:hover {
     background-color: #45a049;
   }
-
-  /* Style the container/contact section */
-  .container {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 10px;
-  }
-
-  /* Create two columns that float next to eachother */
-  .column {
-    float: left;
-    width: 50%;
-    margin-top: 6px;
-    padding: 20px;
-  }
-
-  /* Clear floats after the columns */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-
-  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 600px) {
