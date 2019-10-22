@@ -16,10 +16,21 @@
            First Name: <input type="text" id="fName"><br>
            Last Name: <input type="text" id="lName"><br>
            Email: <input type="text" id="email"><br>
-           <input type="checkbox" name="terms" value="I agree to the Terms and Conditions"> I agree to the Terms and Conditions<br>
-           <button id="mySubmit" type="submit">Submit</button>
-           <a href="firstpage.html">Go to my first page</a>
-           <a href="secondpage.html">Go to my second page</a>
-    </form>
+           <SCRIPT language=JavaScript>
+           function checkCheckBox(f){
+           if (f.agree.checked == false )
+           {
+           alert('Please check the box to continue.');
+           return false;
+           }else
+           return true;
+           }
+           </SCRIPT>
+           <form action="/about.html" method="GET" onsubmit="return checkCheckBox(this)">
+<b>By submitting, I agree to the terms and conditions of the website.</b><br>
+I accept: <input type="checkbox" value="0" name="agree">
+<input type="submit" value="Submit form">
+<input type="button" value="Exit" onclick="document.location.href='/index.html';">
+</form>
   </body>
 </html>
