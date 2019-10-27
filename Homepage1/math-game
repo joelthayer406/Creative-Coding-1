@@ -1,43 +1,46 @@
 <!DOCTYPE html>
 <html>
-    <title>Math Problem</title>
-    <head>
-    <script>
-        var actualAnswer;
-        function printQuestion()
-        {
-            var number1 = Math.floor(Math.random() * 10);
-            var number2 = Math.floor(Math.random() * 10);
-            actualAnswer = number1 + number2;
-            document.getElementById("theQuestion").innerHTML = "What is " + number1 + "+" + number2 + "?";
+  <body background="background.jpg">
+    <h1 style="font-size:44px; color: darkblue">Math Game</h1>
+<head>
+  <script>
+    var actualanswer;
+    var numberone;
+    var numbertwo;
+    function printquestion()
+    {
+      actualanswer = numberone + numbertwo
+      document.getElementById('theProblem').innerhtml = What is the solution to + numberone + "+" numbertwo + "?"
+    }
+    {
+    function checkanswer()
+    }
+    var answer = document.getElementById(('answer'). valus;
+    if(answer == actualanswer)
+    {
+      var answer = document.getElementById('actualanswer').innerhtml "Correct!"
+    }
+    else {
+      document.getElementById('actualanswe').innerhtml ="Wrong!"
+    }
+    function runGame()
+    {
+      for(var i=0; < 5; i++)
+    }
+    {
+      numberone = math.floor(math.random() * 10);
+      numbertwo = math.floor(math.random() * 10);
+    }
+    printquestion();
+    }
+  </script>
+  </head>
 
-        }
-        function checkAnswer()
-        {
-            var answer = document.getElementById("txtAnswer").value;
-            if(answer == actualAnswer)
-            {
-                document.getElementById("finalResult").innerHTML = "Correct!";
-            }
-            else
-            {
-                document.getElementById("finalResult").innerHTML = "Incorrect";
-            }
 
-        }
-    </script>
-    </head>
-    <body onload="printQuestion();">
-        <div id="theQuestion"></div>
-             <table>
-                <tr>
-                    <td>Your answer</td>
-                    <td><input type="text" id="txtAnswer"></td>
-                </tr>
-                <tr>
-                    <td colspan="2"><button id="btnSubmit" onClick="checkAnswer();">Submit</button></td>
-                </tr>
-            </table>
-        <div id="finalResult"></div>
-    </body>
- </html>
+
+
+
+
+
+</body>
+</html>
