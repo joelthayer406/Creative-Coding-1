@@ -5,6 +5,8 @@ var blueColor = 190;
 var x 100;
 var y = 200;
 var diameter = 50;
+var movement = 10;
+
   // this function is called upon once
 function setup()
 {
