@@ -1,0 +1,62 @@
+body {
+  background-color: lightblue;
+}
+h1 {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  color: darkblue;
+  text-align: center;
+  font-size: 24px;
+}
+
+h2 {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  color: navy;
+  text-align: center;
+  font-size: 12;
+}
+
+.main-container {
+  width: 70%;
+  max-width: 700px;
+  margin: 4em auto;
+  padding: 2em;
+}
+#main {
+  text-align: center;
+  margin: 2em;
+}
+#mySubmit {
+  text-align: right;
+  margin: 2em;
+  color: darkblue
+}
+
+  footer {
+    text-align: center;
+
+    box-sizing: border-box;
+  }
+
+  /* Style inputs */
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 2px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 2px;
+    resize: vertical;
+  }
+
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
