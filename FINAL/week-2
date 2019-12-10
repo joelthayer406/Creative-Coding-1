@@ -1,8 +1,14 @@
-<body>
-<h1>Week 2</h1>
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>Week 2</title>
+      </head>
+      <body>
 
+<h1>Week 2</h1>
 <p>Week 2 we focused around the Dance Party Hour of Code and Artist Lab Tutorial. I found these both unbelievably helpful. They helped show the basics of coding in a very approachable way. I was very excited that we did this to open the class before jumping into Atom.</p>
 
-<img src="week-2.jpeg"
+  <img src="week-2.jpeg"
 
-</body>
+  </body>
+</html
