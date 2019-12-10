@@ -1,10 +1,10 @@
 body {
-  background-color: lightblue;
+  background-color: black;
 }
 h1 {
   margin: 0;
   font-family: 'Open Sans', sans-serif;
-  color: darkblue;
+  color: lightblue;
   text-align: center;
   font-size: 24px;
 }
@@ -12,7 +12,7 @@ h1 {
 h2 {
   margin: 0;
   font-family: 'Open Sans', sans-serif;
-  color: Blue;
+  color: lightblue;
   text-align: center;
   font-size: 13;
 }
@@ -20,7 +20,7 @@ h2 {
  li{
    margin: 0;
    font-family: 'Open Sans' sans-serif;
-   color: navy;
+   color: white;
    text-align: left;
    font size: 13;
  }
@@ -28,7 +28,7 @@ h2 {
  p{
    margin: 0;
    font-family: 'Arial' sans-serif;
-   color: navy;
+   color: white;
    font size; 12
  }
 
@@ -36,7 +36,7 @@ h2 {
 h3 {
   margin: 0;
   font-family: 'Open Sans', sans-serif;
-  color: navy;
+  color: lightblue;
   text-align: center;
   font-size: 12;
 
@@ -54,7 +54,8 @@ h3 {
 #mySubmit {
   text-align: right;
   margin: 2em;
-  color: darkblue
+  color: lightblue
+
 }
 
   footer {
