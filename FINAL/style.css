@@ -12,10 +12,34 @@ h1 {
 h2 {
   margin: 0;
   font-family: 'Open Sans', sans-serif;
+  color: Blue;
+  text-align: center;
+  font-size: 13;
+}
+
+ li{
+   margin: 0;
+   font-family: 'Open Sans' sans-serif;
+   color: navy;
+   text-align: left;
+   font size: 13;
+ }
+
+ p{
+   margin: 0;
+   font-family: 'Arial' sans-serif;
+   color: navy;
+   font size; 12
+ }
+
+
+h3 {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
   color: navy;
   text-align: center;
   font-size: 12;
-}
+
 
 .main-container {
   width: 70%;
