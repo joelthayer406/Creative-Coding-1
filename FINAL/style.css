@@ -1,18 +1,29 @@
 body {
-  background-color: black;
+  background-color: lightgrey;
 }
 h1 {
   margin: 0;
   font-family: 'Open Sans', sans-serif;
-  color: lightblue;
+  color: darkblue;
   text-align: center;
   font-size: 24px;
 }
+a{
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  color: darkblue;
+  text-align: left;
+  font-size: 12;
+
+
+
+}
+
 
 h2 {
   margin: 0;
   font-family: 'Open Sans', sans-serif;
-  color: lightblue;
+  color: darkblue;
   text-align: center;
   font-size: 13;
 }
@@ -28,7 +39,7 @@ h2 {
  p{
    margin: 0;
    font-family: 'Arial' sans-serif;
-   color: white;
+   color: Black;
    font size; 12
  }
 
@@ -36,7 +47,7 @@ h2 {
 h3 {
   margin: 0;
   font-family: 'Open Sans', sans-serif;
-  color: lightblue;
+  color: darkblue;
   text-align: center;
   font-size: 12;
 
@@ -54,7 +65,7 @@ h3 {
 #mySubmit {
   text-align: right;
   margin: 2em;
-  color: lightblue
+  color: darkblue
 
 }
 
@@ -76,7 +87,7 @@ h3 {
 
   input[type=submit] {
     background-color: #4CAF50;
-    color: white;
+    color: darkblue;
     padding: 12px 20px;
     border: none;
     cursor: pointer;
